@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+body:after {
+    content: "";
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0; 
+    background: rgba(0,0,0,0.1);
+    pointer-events: none;
+  }
+ .landingpage-container{
+     height: 100vh;
+     width: 100vw;
+     background: url('../images/Mask\ Group.png') no-repeat center center/cover;
+     overflow: hidden;
+ 
+     
+
+    .lp-header{
+        
+        display: flex;
+        justify-content: space-between;
+        .lp-logo{
+             width: 600.21px;
+             height:95.08px;
+             display: flex;
+             align-items: center;
+            @media (max-width:1200px){
+              width: 400.21px;
+            }
+          @media (max-width:700px){
+            width: 600.21px;
+            align-items: flex-start;
+          }
+            img{
+                max-width: 100%;
+                max-height: 100%;
+          @media (max-width:700px){
+            margin-top: 1vh;
+          }
+                
+            }
+           }   
+
+    } 
+      .lp-content{
+      
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          float: right;
+          margin-top: 20vh;
+          margin-right: 1vw;
+      @media (max-width:700px){
+        width: 100%;
+        margin-top: 35vh;
+        padding-left: 5%;
+      }
+          .lp-content-name{
+            
+            font-size: 18px;
+            line-height: 27px;            
+            letter-spacing: 1.5px;
+            color: #FFFFFF;
+          }
+          .lp-content-heading{
+            
+            padding-left: 2%;
+            margin-top: 2vh;
+            margin-bottom: 10vh;
+            font-size: 50px;
+       line-height: 72px;
+         color: #FFFFFF;
+        @media (max-width:700px){
+          font-size: 30px;
+          line-height: 42px;
+          margin-bottom: 5vh;
+        }
+   
+          }
+          .lp-content-btn{
+              
+              display: flex;
+              justify-content: space-between;
+              width: 70%;
+              align-items: center;
+          @media (max-width:700px){
+            width: 80%;
+          }
+             button{
+                font-family: 'Lato', sans-serif;
+                 background: #FFB400;
+                 width: 50%;
+                  height: 35.88px;
+                  border: none;
+                  outline: none;
+                  font-size: 16px;
+                  cursor: pointer;
+line-height: 21px;
+text-align: center;
+color: #184341;
+
+             } 
+             a{ 
+                font-family: 'Lato', sans-serif;
+                font-size: 15px;
+                line-height: 21px;
+                color: #FFFFFF;
+                
+                 text-decoration: none;
+             }
+          }
+      }  
+ }
