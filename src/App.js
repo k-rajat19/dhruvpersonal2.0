@@ -1,6 +1,6 @@
 import React from 'react';
-import Landingpage from './components/Landingpage';
-import './scss/landingpage.css';
+import Landingpage from './components/LandingPage/Landingpage';
+
 
 export default function App() {
   return (

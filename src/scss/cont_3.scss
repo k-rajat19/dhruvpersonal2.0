@@ -1,0 +1,131 @@
+#cont_3-container{
+    
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    .cont_3_c1{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        :nth-child(1){
+            font-size: 16px;
+line-height: 21px;
+
+letter-spacing: 1.5px;
+
+color: #FFB400;
+
+@media (max-width:550px){
+    font-size: 14px;
+}
+
+        }
+        :nth-child(2){
+            font-size: 35px;
+            margin: 12px 0px 12px 0px;
+line-height: 56px;
+color: #184341;
+@media (max-width:550px){
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+        }
+        :nth-child(3){
+            width: 150px;
+height: 5px;
+background: #FFB400;
+@media (max-width:550px){
+    width: 100px;
+}
+        }
+        p{
+            font-size: 15px;
+line-height: 24px;
+margin: 12px 0px 12px 0px;
+width: 50vw;
+text-align: center;
+color: #616670;
+@media (max-width:550px){
+    width: 90vw;
+}
+        }
+    }
+    .cont_3_c2{
+        
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 30px 0px 100px 0px;
+        
+       
+        .c2-card{
+            width: 360px;
+            margin-bottom: 40px;
+height: 341px;
+border: 1px solid #E9E9E9;
+display: flex;
+flex-direction: column;
+padding: 30px;
+justify-content:flex-end;
+div{
+    font-size: 25px;
+line-height: 32px;
+border: none;
+padding: 0px;
+margin: 0px;
+color: #184341;
+
+}
+p{
+    font-size: 16px;
+line-height: 24px;
+color: #616670;
+margin: 20px 0px 30px 0px;
+}
+        }
+        .active{
+            background: #184341;
+            div{
+                color: white;
+            }
+            p{
+                color: white;
+            }
+        }
+    }
+    .cont_3_c3{
+        height: 230px;
+        background: #184341;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        @media (max-width:750px){
+            flex-direction: column;
+            align-items: center;
+            height: 550px;
+        }
+        div{
+            font-size: 35px;
+line-height: 56px;
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 40px;
+
+p{
+    font-size: 15px;
+    line-height: 24px;   
+    color: #FFFFFF;
+ 
+}
+
+        }
+    }
+}

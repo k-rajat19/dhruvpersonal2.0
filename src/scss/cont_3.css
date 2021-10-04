@@ -1,0 +1,193 @@
+#cont_3-container {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 120px;
+}
+
+#cont_3-container .cont_3_c1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cont_3-container .cont_3_c1 :nth-child(1) {
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 1.5px;
+  color: #FFB400;
+}
+
+@media (max-width: 550px) {
+  #cont_3-container .cont_3_c1 :nth-child(1) {
+    font-size: 14px;
+  }
+}
+
+#cont_3-container .cont_3_c1 :nth-child(2) {
+  font-size: 35px;
+  margin: 12px 0px 12px 0px;
+  line-height: 56px;
+  color: #184341;
+}
+
+@media (max-width: 550px) {
+  #cont_3-container .cont_3_c1 :nth-child(2) {
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+}
+
+#cont_3-container .cont_3_c1 :nth-child(3) {
+  width: 150px;
+  height: 5px;
+  background: #FFB400;
+}
+
+@media (max-width: 550px) {
+  #cont_3-container .cont_3_c1 :nth-child(3) {
+    width: 100px;
+  }
+}
+
+#cont_3-container .cont_3_c1 p {
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0px 12px 0px;
+  width: 50vw;
+  text-align: center;
+  color: #616670;
+}
+
+@media (max-width: 550px) {
+  #cont_3-container .cont_3_c1 p {
+    width: 90vw;
+  }
+}
+
+#cont_3-container .cont_3_c2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 30px 0px 100px 0px;
+}
+
+#cont_3-container .cont_3_c2 .c2-card {
+  width: 360px;
+  margin-bottom: 40px;
+  height: 341px;
+  border: 1px solid #E9E9E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#cont_3-container .cont_3_c2 .c2-card div {
+  font-size: 25px;
+  line-height: 32px;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  color: #184341;
+}
+
+#cont_3-container .cont_3_c2 .c2-card p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #616670;
+  margin: 20px 0px 30px 0px;
+}
+
+#cont_3-container .cont_3_c2 .active {
+  background: #184341;
+}
+
+#cont_3-container .cont_3_c2 .active div {
+  color: white;
+}
+
+#cont_3-container .cont_3_c2 .active p {
+  color: white;
+}
+
+#cont_3-container .cont_3_c3 {
+  height: 230px;
+  background: #184341;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media (max-width: 750px) {
+  #cont_3-container .cont_3_c3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 550px;
+  }
+}
+
+#cont_3-container .cont_3_c3 div {
+  font-size: 35px;
+  line-height: 56px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+#cont_3-container .cont_3_c3 div p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=cont_3.css.map */

@@ -17,7 +17,7 @@ export default function Header() {
         </div>
         
     {/*   For Mobile devices  */}
-            <nav role="navigation" className='header-mobile'>
+            <nav  className='header-mobile'>
                    <div id="menuToggle">
                    <input type="checkbox" />
                    <span></span>
