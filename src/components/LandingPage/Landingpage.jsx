@@ -18,7 +18,7 @@ import Cont7 from './Cont_7';
 
 export default function Landingpage() {
     return (
-        <div style={{backgroundColor:'white',overflow:'hidden',border:'2px solid red'}}>
+        <div style={{backgroundColor:'white',overflow:'hidden'}}>
           <Cont1/>
           <Cont2/>
           <Cont3/>
