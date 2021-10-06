@@ -1,9 +1,10 @@
 
 #cont_2-container{
     
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    
     
 
     
@@ -172,6 +173,7 @@ color: #616670;
                 margin: 0px;
                 p{
                     font-size: 16px;
+                    letter-spacing: unset;
                     width: unset;
                     background: transparent;
                     height: unset;
@@ -192,11 +194,11 @@ color: #616670;
             display: flex;
             align-items: center;
             
-           justify-content:space-around;
+           justify-content:space-between;
            margin: 20px 0px 20px 0px;
            padding-right: 70px;
            @media(max-width:550px){
-               justify-content: space-between;
+               
                padding-right: 30px;
            }
             img{
@@ -242,7 +244,7 @@ color: #616670;
         align-items: center;
         justify-content: space-evenly;
         padding: 40px;
-        margin-top: 30px;
+        margin-top: 100px;
         @media screen and (max-width:1200px){
             flex-direction: column;
             align-items: unset;
@@ -287,7 +289,7 @@ color: #616670;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        margin: 12px 0px 40px 0px;
+        margin: 82px 0px 40px 0px;
         :nth-child(2){
             font-size: 32px;
 line-height: 56px;

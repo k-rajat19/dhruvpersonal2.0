@@ -3,7 +3,7 @@ import c2_img1 from '../../images/Rectangle (3).png'
 import c2_img2 from '../../images/Rectangle (4).png'
 import c2_img3 from '../../images/Rectangle (5).png'
 
-export default function Cont_5() {
+export default function Cont5() {
     return (
       <div id="cont_5-container">
           <div className="cont_5_c1">

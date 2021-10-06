@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import Header from '../Header';
 
 
-export default function Cont_1() {
+export default function Cont1() {
     return (
    <div className="cont_1-container">
     <div className="cont_1-header">

@@ -15,7 +15,7 @@ const toggle=(j)=>{
           let c1_second_para=document.getElementById(`c1_second_para${i}`)
           if(i===j){
             c1_second_heading[i].classList.add('active')
-            c1_second_para.style.display==='none'?c1_second_para.style.display='block':''
+            c1_second_para.style.display='block'
         
           }
           else{
@@ -26,7 +26,7 @@ const toggle=(j)=>{
           
       }
 }
-export default function Cont_6() {
+export default function Cont6() {
     return (
        <div id="cont_6-container">
            <div className="cont_6_c1">

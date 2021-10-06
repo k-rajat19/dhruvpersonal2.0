@@ -1,5 +1,5 @@
 #cont_2-container {
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,6 +223,7 @@
 
 #cont_2-container .cont_2_c1 :nth-child(5) div p {
   font-size: 16px;
+  letter-spacing: unset;
   width: unset;
   background: transparent;
   height: unset;
@@ -245,17 +246,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 20px 0px 20px 0px;
   padding-right: 70px;
 }
 
 @media (max-width: 550px) {
   #cont_2-container .cont_2_c1 :nth-child(6) {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     padding-right: 30px;
   }
 }
@@ -320,7 +319,7 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding: 40px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -405,7 +404,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 12px 0px 40px 0px;
+  margin: 82px 0px 40px 0px;
 }
 
 #cont_2-container .cont_2_c3 :nth-child(2) {

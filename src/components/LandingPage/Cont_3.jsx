@@ -12,7 +12,7 @@ const click =(j)=>{
 
 
 
-export default function Cont_3() {
+export default function Cont3() {
     return (
       <div id="cont_3-container">
            <div className="cont_3_c1">

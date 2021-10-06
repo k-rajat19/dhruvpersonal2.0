@@ -5,7 +5,7 @@ import cardimg2 from '../../images/Rectangle (7).png'
 import cardimg3 from '../../images/Rectangle (8).png'
 import signature from '../../images/signature.png'
 
-export default function Cont_7() {
+export default function Cont7() {
     return (
       <div id="cont_7-container">
    <div className="cont_7_c1">

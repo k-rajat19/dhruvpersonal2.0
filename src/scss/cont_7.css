@@ -290,6 +290,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+  #cont_7-container .cont_7_c3 .c3_item {
+    margin: 0px;
+  }
 }
 
 @media (max-width: 750px) {

@@ -2,7 +2,7 @@ import React from 'react'
 import signature from '../../images/signature (2) 1.png'
 import youtube from '../../images/image 3.png'
 
-export default function Cont_2() {
+export default function Cont2() {
     return (
      <div id="cont_2-container">
        

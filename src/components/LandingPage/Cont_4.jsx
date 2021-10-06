@@ -1,7 +1,7 @@
 import React from 'react'
 import companylogo from '../../images/Rectangle (2).png'
 
-export default function Cont_4() {
+export default function Cont4() {
     return (
        <div id="cont_4-container">
              <div className="cont_4_c1">
