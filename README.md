@@ -1,5 +1,6 @@
 # Landing page Using React
   - https://k-rajat19.github.io/dhruvpersonal2.0/
+  - Completely Responsive. 
 
 # Getting Started with Create React App
 
